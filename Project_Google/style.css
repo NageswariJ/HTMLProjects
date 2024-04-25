@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* Height,width resize */
+
+}
+.container{
+    display: flex;
+    /* Row and column alignment */
+    justify-content: center;
+    /* Container inside contents make center */
+    
+
+}
+.img-sec{
+    margin-top: 200px;
+
+}
+.inputs input{
+    margin-top:25px;
+    margin-bottom: 25px;
+    height:55px ;
+    width: 40%;
+    /* width always mention in percentage */
+    /* height mention in pixel */
+   border:1px solid rgb(216, 215, 215);
+    border-radius:30px;
+    outline: none;
+    /* Border outside line called outline */
+    font-size: 25px;
+}
+.inputs input:hover{
+    box-shadow: 2px 2px 3px rgb(192,192,192);
+/* top,bottom  heightandwidth bur effect */
+
+}
+.btn{
+    margin:50px;
+
+}
+.btn button{
+    padding:20px;
+    background-color: rgb(242, 241, 241);
+    border:none;
+    width:12%;
+    margin-right: 20px;
+    /* Button right side space allocation */
+    cursor:pointer;
+    border-radius: 10px;
+}
+.btn button:hover{
+    box-shadow: 2px 2px 3px rgb(192,192,192);
+
+}
