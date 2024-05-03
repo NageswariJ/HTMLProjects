@@ -3,161 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krishna Sweets</title>
+    <title>Chess-Board</title>
     <style>
-        table, th, tr, td {
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size: large;
-            color:red;
-          border:1px solid rgb(11, 12, 10);
-          margin: 5px;
-          padding: 5px;
-          /* background-image: url(../BAckground.jpeg); */
+        /* html tag is a space outside body in webpage */
+        html{
+            background-color: gray;
+
         }
-        </style>
+        body{
+            
+            background-color: white;
+            height:800px;
+            width:800px;
+            margin:30px auto;
+        }
+        .row{
+            width:100%;
+            height:100px;
+            float:left;
+        }
+        .box{
+           font-size: 75px; 
+           text-align: center;
+            height:100px;
+            width:100px;
+            float:left;
+        }
+        .black{
+background-color: black;
+color: white;
+        }
+    </style>
 </head>
 <body>
-    <img src="../Srikrishna.jpeg ">
-    <table>
-        <tr>
-          <th>Name</th>
-          <th>Contact</th>
-          <th>Address</th>
-          <th>Emailid </th>
-                   <th>Country
-        </th>
-        <th>Sweet-type
-        </th>
-        <th>Quantity
-        </th>
-        <th>Giftwrapper
-        </th>
-        <th>Location
-        </th>
-        <th>Landmark
-        </th>
-
-
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>8765432890</td>
-          <td>121,Nobel street,Germany</td>
-          <td>cdfeg@gmail.com</td>
-          <td>Germany</td>
-          <td>Gulab Jamun</td>
-          <td>5 kgs</td>
-          <td>NOt required</td>
-          <td>Germany</td>
-          <td>Near St Pauls Church</td>
-        </tr>
-        <tr>
-            <td>Mark Charles</td>
-            <td>8764346708</td>
-            <td>4,Greek street,France</td>
-            <td>cnovitechg@gmail.com</td>
-            <td>Germany</td>
-            <td>Milk Sweets</td>
-            <td>10 kgs</td>
-            <td>Required-Birthday</td>
-            <td>Germany</td>
-            <td>Near Geeks Icecream shop</td>
-          </tr>
-          <tr>
-            <td>John Clinten</td>
-            <td>+112367890165</td>
-            <td>67,Harlington Road,Syndney</td>
-            <td>clint54_john@gmail.com</td>
-            <td>Australia</td>
-            <td>Kajukathili</td>
-            <td>50 kgs</td>
-            <td>Required-Wedding Anniversary</td>
-            <td>Australia</td>
-            <td>Near  PMT Galaxy House</td>
-          </tr>
-          <tr>
-            <td>John Clinten</td>
-            <td>+112367890165</td>
-            <td>67,Harlington Road,Syndney</td>
-            <td>clint54_john@gmail.com</td>
-            <td>Australia</td>
-            <td>Kajukathili</td>
-            <td>50 kgs</td>
-            <td>Required-Wedding Anniversary</td>
-            <td>Australia</td>
-            <td>Near  PMT Galaxy House</td>
-          </tr>
-
-
-            <tr>
-            <td>John Clinten</td>
-            <td>+112367890165</td>
-            <td>67,Harlington Road,Syndney</td>
-            <td>clint54_john@gmail.com</td>
-            <td>Australia</td>
-            <td>Kajukathili</td>
-            <td>50 kgs</td>
-            <td>Required-Wedding Anniversary</td>
-            <td>Australia</td>
-            <td>Near  PMT Galaxy House</td>
-          </tr>
-
-
-
-          <tr>
-            <td>John Clinten</td>
-            <td>+112367890165</td>
-            <td>67,Harlington Road,Syndney</td>
-            <td>clint54_john@gmail.com</td>
-            <td>Australia</td>
-            <td>Kajukathili</td>
-            <td>50 kgs</td>
-            <td>Required-Wedding Anniversary</td>
-            <td>Australia</td>
-            <td>Near  PMT Galaxy House</td>
-          </tr>
-
-          <tr>
-
-            <td>John Clinten</td>
-            <td>+112367890165</td>
-            <td>67,Harlington Road,Syndney</td>
-            <td>clint54_john@gmail.com</td>
-            <td>Australia</td>
-            <td>Kajukathili</td>
-            <td>50 kgs</td>
-            <td>Required-Wedding Anniversary</td>
-            <td>Australia</td>
-            <td>Near  PMT Galaxy House</td>
-          </tr>
-
-         <tr>
-            <td>John Clinten</td>
-            <td>+112367890165</td>
-            <td>67,Harlington Road,Syndney</td>
-            <td>clint54_john@gmail.com</td>
-            <td>Australia</td>
-            <td>Kajukathili</td>
-            <td>50 kgs</td>
-            <td>Required-Wedding Anniversary</td>
-            <td>Australia</td>
-            <td>Near  PMT Galaxy House</td>
-          </tr>
-          <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>8765432890</td>
-            <td>121,Nobel street,Germany</td>
-            <td>cdfeg@gmail.com</td>
-            <td>Germany</td>
-            <td>Gulab Jamun</td>
-            <td>5 kgs</td>
-            <td>NOt required</td>
-            <td>Germany</td>
-            <td>Near St Pauls Church</td>
-          </tr>
-    </table>
+    <div class="row">
+        <!-- Shortcut to create 8 boxes is .box*8 -->
+        <div class="box">&#9814</div>
+        <div class="box black">	&#9816</div>
+        <div class="box">&#9815</div>
+        <div class="box black">&#9813</div>
+        <div class="box">&#9812</div>
+        <div class="box black">&#9815</div>
+        <div class="box">&#9816</div>
+        <div class="box black">&#9814</div>
+         </div>
+        <div class="row">
+        
+        <div class="box black">&#9817</div>
+        <div class="box">&#9817</div>
+        <div class="box black">&#9817</div>
+        <div class="box">&#9817</div>
+        <div class="box black">&#9817</div>
+        <div class="box">&#9817</div>
+        <div class="box black">&#9817</div>
+        <div class="box">&#9817</div>
+        </div>
+        <div class="row">
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+    </div>
+    <div class="row">
     
-      
-     
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+    </div>
+    
+    <div class="row">
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+    </div>
+    <div class="row">
+    
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+    </div>
+    <div class="row">
+        <div class="box">	&#9823</div>
+        <div class="box black">	&#9823</div>
+        <div class="box">	&#9823</div>
+        <div class="box black">	&#9823</div>
+        <div class="box">	&#9823</div>
+        <div class="box black">	&#9823</div>
+        <div class="box">	&#9823</div>
+        <div class="box black">	&#9823</div>
+    </div>
+    <div class="row">
+    
+        <div class="box black">&#9820</div>
+        <div class="box">&#9822</div>
+        <div class="box black">	&#9821</div>
+        <div class="box">	&#9819</div>
+        <div class="box black">	&#9818</div>
+        <div class="box">	&#9821</div>
+        <div class="box black">&#9822</div>
+        <div class="box">&#9820</div>
+    </div>
 </body>
 </html>
